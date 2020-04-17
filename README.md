@@ -1,7 +1,7 @@
 ## DATE \ DATE TIME
 - extends **\DateTime** class
 
-Work with DateTime class. But has czech name of Months and Week Days
+Work with DateTime class. But has czech name of Months and Week Days and Format
 
 Allows multiple way to create DateTime. Specificly Czech typo of writing
 ```php
