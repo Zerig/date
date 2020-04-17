@@ -1,0 +1,27 @@
+{
+    "name": "zerig/date",
+    "type": "library",
+    "description": "Works with DateTime class. Use czech name of Months and Week Days and Format",
+    "keywords": [
+        "czech date",
+        "czech dateTime"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jeronym Pelikovsky",
+            "email": "pelikovsky@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : ">=5.6.0",
+		"zerig/url-parser": "@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Date\\": "src/"
+        }
+    },
+	"minimum-stability": "dev"
+}
