@@ -45,8 +45,8 @@ class DateTime extends \DateTime{
 
 	}
 
-	public static function createFromFormat($interface, $str_date){
-		$parent_class = parent::createFromFormat($interface, $str_date);
+	public static function createFromFormat($interface, $str_date, ?\DateTimeZone $object = NULL){
+		$parent_class = parent::createFromFormat($interface, $str_date, $object);
 
 		if($parent_class) 	return new DateTime( $parent_class->format('Y-m-d H:i:s') );
 		else   				return $this->dt;
